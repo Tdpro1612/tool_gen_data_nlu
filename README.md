@@ -19,9 +19,9 @@ gen_data = "tôi thích đi du lịch ở Hà Nội vì nơi đó có món Phở
 ```
 * ta thấy rõ ràng khi gen ta cần 2 slot với cấu trúc kiểu
   - tôi thích đi du lịch ở [slot] vì nơi đó có món [slot] rất ngon.
-  theo như **NER** (**Named Entity Recognition**) ta có thể thay thế cấu trúc như 
+* để slot slot ta rất khó phân biệt slot gì thay thế từ gì nên dựa vào **NER** (**Named Entity Recognition**) ta có thể thay thế cấu trúc thành 
   - tôi thích đi du lịch ở [location] vì nơi đó có món [food] rất ngon.
-  như vậy ta có thể thấy với m location và n food thì ta sẽ có m * n các câu gen nhưng nó lại không có ý nghĩa chính xác.
+  - như vậy ta có thể thấy với m location và n food thì ta sẽ có m * n các câu gen nhưng nó lại không chắc có ý nghĩa chính xác.
   
 ### = > vậy bài toán ta đặt ra là có thể tạo ra đủ nhiều data tương ứng:
   * **Số Lượng** :
